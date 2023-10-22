@@ -1,0 +1,33 @@
+body {
+  overflow: hidden;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/* app.css，来自于官网 */
+.pages-main-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.pages-main-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 200ms, transform 200ms;
+}
+
+.pages-main-exit {
+  opacity: 1;
+}
+
+.pages-main-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 200ms, transform 200ms;
+}

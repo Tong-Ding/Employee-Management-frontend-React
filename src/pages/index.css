@@ -1,0 +1,10 @@
+.iframe_wrapper {
+  height: calc(100vh - 56px);
+}
+.iframe_wrapper iframe {
+  border: none !important;
+}
+.iframe_wrapper .iframe_content {
+  width: 100%;
+  height: calc(100vh - 56px);
+}
